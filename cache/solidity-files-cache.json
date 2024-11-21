@@ -1,0 +1,153 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/anandbhaskaran/Personal/Blockchain/drone-contract/contracts/DroneComplianceSystem.sol": {
+      "lastModificationDate": 1732200396858,
+      "contentHash": "945017634057882bbad99f3509455ec6",
+      "sourceName": "contracts/DroneComplianceSystem.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "DroneComplianceSystem"
+      ]
+    },
+    "/Users/anandbhaskaran/Personal/Blockchain/drone-contract/contracts/DroneOperationsManager.sol": {
+      "lastModificationDate": 1732203131319,
+      "contentHash": "a89be3ddc6c9e3e893c1eb9c34d69bf0",
+      "sourceName": "contracts/DroneOperationsManager.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DroneRegistry.sol",
+        "./DroneFlightAuthorization.sol",
+        "./DroneComplianceSystem.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "DroneOperationsManager"
+      ]
+    },
+    "/Users/anandbhaskaran/Personal/Blockchain/drone-contract/contracts/DroneRegistry.sol": {
+      "lastModificationDate": 1732203117570,
+      "contentHash": "950024837e3996d134b5518e99649fde",
+      "sourceName": "contracts/DroneRegistry.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "DroneRegistry"
+      ]
+    },
+    "/Users/anandbhaskaran/Personal/Blockchain/drone-contract/contracts/DroneFlightAuthorization.sol": {
+      "lastModificationDate": 1732200394148,
+      "contentHash": "7740f9a78371273ad90c0dd9c59a94cb",
+      "sourceName": "contracts/DroneFlightAuthorization.sol",
+      "solcConfig": {
+        "version": "0.8.20",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "DroneFlightAuthorization"
+      ]
+    }
+  }
+}
